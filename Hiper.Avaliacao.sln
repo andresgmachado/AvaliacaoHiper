@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hiper.Avaliacao.Models", "Hiper.Avaliacao.Models\Hiper.Avaliacao.Models.csproj", "{63DA0B5F-1C51-41F2-870C-8844A7D5487A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hiper.Avaliacao.Data", "Hiper.Avaliacao.Data\Hiper.Avaliacao.Data.csproj", "{74E8AF60-E15B-4566-BB1F-A708E5C90920}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hiper.Avaliacao.Business", "Hiper.Avaliacao.Business\Hiper.Avaliacao.Business.csproj", "{C770EEE0-AA48-4514-B386-9B63C30808C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hiper.Avaliacao.Aplicacao", "Hiper.Avaliacao.Aplicacao\Hiper.Avaliacao.Aplicacao.csproj", "{7AFEED53-58E4-4C8E-8D95-299A314B4F97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hiper.Aplicacao", "Hiper.Aplicacao", "{DD2D145B-EA8C-4F8E-8CAC-4B1EEBD2D46E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hiper.API", "Hiper.API", "{7C679021-122A-4233-96F5-A26DDF946424}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hiper.Produto.Api", "..\AvaliacaoHiper\Hiper.Produto.Api\Hiper.Produto.Api.csproj", "{7A7BC847-85C0-4B83-97A2-C7EBA63CB89D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63DA0B5F-1C51-41F2-870C-8844A7D5487A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63DA0B5F-1C51-41F2-870C-8844A7D5487A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63DA0B5F-1C51-41F2-870C-8844A7D5487A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63DA0B5F-1C51-41F2-870C-8844A7D5487A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74E8AF60-E15B-4566-BB1F-A708E5C90920}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74E8AF60-E15B-4566-BB1F-A708E5C90920}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74E8AF60-E15B-4566-BB1F-A708E5C90920}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74E8AF60-E15B-4566-BB1F-A708E5C90920}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C770EEE0-AA48-4514-B386-9B63C30808C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C770EEE0-AA48-4514-B386-9B63C30808C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C770EEE0-AA48-4514-B386-9B63C30808C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C770EEE0-AA48-4514-B386-9B63C30808C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AFEED53-58E4-4C8E-8D95-299A314B4F97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AFEED53-58E4-4C8E-8D95-299A314B4F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AFEED53-58E4-4C8E-8D95-299A314B4F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AFEED53-58E4-4C8E-8D95-299A314B4F97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A7BC847-85C0-4B83-97A2-C7EBA63CB89D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A7BC847-85C0-4B83-97A2-C7EBA63CB89D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A7BC847-85C0-4B83-97A2-C7EBA63CB89D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A7BC847-85C0-4B83-97A2-C7EBA63CB89D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{63DA0B5F-1C51-41F2-870C-8844A7D5487A} = {DD2D145B-EA8C-4F8E-8CAC-4B1EEBD2D46E}
+		{74E8AF60-E15B-4566-BB1F-A708E5C90920} = {DD2D145B-EA8C-4F8E-8CAC-4B1EEBD2D46E}
+		{C770EEE0-AA48-4514-B386-9B63C30808C7} = {DD2D145B-EA8C-4F8E-8CAC-4B1EEBD2D46E}
+		{7AFEED53-58E4-4C8E-8D95-299A314B4F97} = {DD2D145B-EA8C-4F8E-8CAC-4B1EEBD2D46E}
+		{7A7BC847-85C0-4B83-97A2-C7EBA63CB89D} = {7C679021-122A-4233-96F5-A26DDF946424}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A606A95E-B9D3-4084-A264-D2B8581712DD}
+	EndGlobalSection
+EndGlobal
